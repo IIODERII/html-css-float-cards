@@ -1,0 +1,34 @@
+/* setup */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+	--color-title: #e53170;
+	--color-bg-article: #0f0e17;
+	--color-mail: #62a2a5;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pull-left{
+    float: left;
+}
+
+body{
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+/* header */
+
+
+
+/* main */
