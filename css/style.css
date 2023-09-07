@@ -1,71 +1,72 @@
 /* setup */
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 :root {
-	--color-title: #e53170;
-	--color-bg-article: #0f0e17;
-	--color-mail: #62a2a5;
+    --color-title: #e53170;
+    --color-bg-article: #0f0e17;
+    --color-mail: #62a2a5;
 }
 
-.clearfix:after{
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.pull-left{
+.pull-left {
     float: left;
 }
 
-body{
+body { 
     margin: 0 auto;
     font-size: 16px;
     max-width: 1200px;
+    font-family: 'Fredoka', sans-serif;
 }
 
 /* header */
 
-header{
+header {
     text-align: center;
 }
 
-h1{
+h1 {
     color: var(--color-title);
     margin: 25px 0 50px 0;
 }
 
 /* main */
 
-.article-container{
+.article-container {
     width: calc(100% / 3);
     padding: 30px;
 }
 
-article{
+article {
     background-color: var(--color-bg-article);
     color: #ffffff;
     box-shadow: 1px 1px 8px #000000;
 
 }
 
-img{
+img {
     width: 25%;
 }
 
-.dev-info{
-    padding-top: 12px;
+.dev-info {
+    padding-top: 10px;
     padding-left: 10px;
 }
 
-h2{
-    font-size: 1.3em;
-}
-.role{
-    display: block;
+h2 {
+    font-size: 1.2em;
 }
 
+.role {
+    display: block;
+}
